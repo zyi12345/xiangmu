@@ -1,11 +1,7 @@
 package com.bwf.shop.admin.bean.bo;
 //添加员工业务模型对象
 public class AdminAddBo {
-    private Integer admin_id;//员工编号
-    private String admin_name;//登录账户名称
-    private String admin_pass;//登录账户密码
-    private String admin_nickname;//员工昵称
-    private Integer role_id;//员工角色编号
+
 
     public Integer getAdmin_id() {
         return admin_id;
