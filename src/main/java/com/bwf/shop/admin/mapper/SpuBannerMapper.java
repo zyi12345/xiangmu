@@ -8,6 +8,8 @@ import java.util.List;
 
 @Repository
 public interface SpuBannerMapper {
+    int addSpuBannerList (@Param("spu_id") Integer spu_id,
+                          @Param("spuBannerAddBoList")List<SpuBannerAddBo> spuBannerAddBoList);
 
 }
 
